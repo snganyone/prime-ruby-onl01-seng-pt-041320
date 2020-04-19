@@ -10,4 +10,5 @@ def prime?(number)
     true
   end
 end
+end
 # A prime number is divisible by itself and 1.
