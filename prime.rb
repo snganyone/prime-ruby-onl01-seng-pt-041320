@@ -5,8 +5,9 @@ def prime?(number)
   else
     if (2..number-1).any?{|i| number % i == 0}
       false
+    else 
+      true
     end
-    true
   end
 end
 # A prime number is divisible by itself and 1.
