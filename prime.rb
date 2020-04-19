@@ -7,5 +7,6 @@ def prime?(number)
       false
     end
     true
+  end
 end
 # A prime number is divisible by itself and 1.
