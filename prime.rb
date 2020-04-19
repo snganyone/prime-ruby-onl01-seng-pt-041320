@@ -4,7 +4,7 @@ def prime?(number)
     false
   else
   (2..number).all? do |num|
-    if number % num == 0 && number < 0
+    if number % num == 0
       false
     end
     true
