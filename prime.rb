@@ -7,3 +7,4 @@ def prime?(number)
     return true
   end
 end
+# A prime number is divisible by itself and 1.
