@@ -3,7 +3,7 @@ def prime?(number)
   if number < 2
     false
   else
-    if (2..number).any?{|i| number % i == 0}
+    if (2..number-1).any?{|i| number % i == 0}
       false
     end
     true
