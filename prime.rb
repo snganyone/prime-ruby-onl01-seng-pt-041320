@@ -1,8 +1,8 @@
 # Add code here!
 def prime?(number)
+  if number == 0
+    return false
   (-2..number).each do |num|
-    if number == 0
-      false
     elsif number % num == 0
       false
     end
